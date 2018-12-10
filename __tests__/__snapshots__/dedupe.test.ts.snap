@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dedupe class methods deduplicate successfully matches snapshot 1`] = `"string"`;
+
+exports[`Dedupe class methods setListsValues sets emailList itemsByIdList correctly 1`] = `
+Map {
+  "bog@bar.com" => "wabaj238238jdsnfsj23",
+}
+`;
+
+exports[`Dedupe class methods setListsValues sets emailList itemsByIdList correctly 2`] = `
+Map {
+  "wabaj238238jdsnfsj23" => Object {
+    "_id": "wabaj238238jdsnfsj23",
+    "address": "8803 Dark St",
+    "email": "bog@bar.com",
+    "entryDate": "2014-05-07T17:31:20+00:00",
+    "firstName": "Fran",
+    "lastName": "Jones",
+  },
+}
+`;

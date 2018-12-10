@@ -1,6 +1,43 @@
 # Marketo Challenge
 
-## Received Instructions:
+Node.js, TypeScript, Chai, Jest
+
+## Installing the dependencies
+
+1.  Make sure you have `npm` installed on your machine. See https://docs.npmjs.com/downloading-and-installing-node-js-and-npm if you need to install npm.
+2.  Run
+
+    ```bash
+    $ npm install
+    ```
+
+## Running the app
+
+- To run the app
+
+  By default the app will use leads.json as it's "input-file" and will save the output to output.json. Both files are located in the project root.
+
+  Default:
+
+  ```bash
+  $ npm start
+  ```
+
+  To use your files, run the following:
+
+  ```bash
+  $ npm start [input-path] [output-path]
+  ```
+
+## Running tests
+
+- To run tests:
+
+  ```bash
+  $ npm test
+  ```
+
+## Received instructions:
 
 Take a variable number of identically structured json records and de-duplicate the set.
 
